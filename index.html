@@ -1,0 +1,159 @@
+<!doctype html>
+<html lang="ckb" dir="rtl">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="theme-color" content="#10162b">
+<link rel="manifest" href="manifest.webmanifest">
+<link rel="icon" href="sung-jin-woo.jpg" type="image/jpeg">
+<title>English Shadow — فێربوونی زمانی ئینگلیزی</title>
+<style>
+:root{--bg:#0a1020;--panel:#111a30;--panel2:#17233d;--line:#263756;--text:#edf3ff;--muted:#9eafcc;--a:#8b7cff;--b:#36d6c3;--danger:#ff7188;--gold:#ffc86b;--radius:20px}
+*{box-sizing:border-box}body{margin:0;background:radial-gradient(900px 500px at 90% -10%,#252d60 0%,transparent 65%),radial-gradient(700px 400px at -10% 30%,#123c4a 0%,transparent 60%),var(--bg);color:var(--text);font-family:"Speda","Noto Sans Arabic","Segoe UI",Tahoma,sans-serif;line-height:1.7}
+button,input,textarea,select{font:inherit}button{cursor:pointer}.shell{max-width:1220px;margin:auto;padding:22px}.top{display:flex;align-items:center;justify-content:space-between;gap:15px;flex-wrap:wrap;margin-bottom:22px}.brand{display:flex;align-items:center;gap:13px}.logo{width:54px;height:54px;border-radius:18px;background:linear-gradient(135deg,var(--a),var(--b));display:grid;place-items:center;color:#07101e;font-size:28px;font-weight:900;box-shadow:0 8px 35px #756aff55}.brand h1{font-size:23px;margin:0;letter-spacing:.3px}.brand p{margin:0;color:var(--muted);font-size:13px}.status{border:1px solid var(--line);background:#111b30;padding:8px 13px;border-radius:999px;color:var(--muted);font-size:13px;display:flex;align-items:center;gap:8px}.dot{width:8px;height:8px;background:var(--gold);border-radius:50%}.dot.online{background:var(--b);box-shadow:0 0 12px var(--b)}.hero{display:grid;grid-template-columns:1.3fr .7fr;gap:18px;margin-bottom:18px}.hero-main,.hero-side,.panel,.tile{border:1px solid var(--line);background:linear-gradient(145deg,#151f38ed,#0f1729f5);border-radius:var(--radius);box-shadow:0 15px 45px #0002}.hero-main{padding:27px;position:relative;overflow:hidden}.hero-main:after{content:"✦";position:absolute;font-size:180px;color:#8b7cff12;right:15px;bottom:-85px;pointer-events:none}.eyebrow{color:var(--b);font-weight:800;font-size:12px;letter-spacing:1px}.hero h2{font-size:clamp(25px,4vw,38px);line-height:1.3;margin:9px 0}.hero p{color:var(--muted);margin:8px 0 18px;max-width:720px}.hero-side{padding:20px;display:flex;flex-direction:column;justify-content:center;gap:12px}.stat{display:flex;align-items:center;justify-content:space-between;padding:12px 14px;background:#ffffff06;border:1px solid #ffffff0b;border-radius:14px}.stat strong{font-size:20px}.stat span{font-size:13px;color:var(--muted)}.nav{display:flex;gap:8px;flex-wrap:wrap;margin:18px 0}.nav button{border:1px solid var(--line);background:#10192c;color:var(--muted);padding:10px 15px;border-radius:13px}.nav button.active{background:linear-gradient(120deg,#7669e9,#268f9a);border-color:transparent;color:white;font-weight:800}.view{display:none}.view.active{display:block}.grid2{display:grid;grid-template-columns:1fr 1fr;gap:16px}.panel{padding:22px;margin-bottom:16px}.panel h3{margin:0 0 5px;font-size:19px}.sub{color:var(--muted);font-size:13px;margin:0 0 16px}.label{display:block;font-size:13px;color:var(--muted);margin:9px 0 5px}input,textarea,select{width:100%;border:1px solid var(--line);border-radius:13px;background:#091225;color:var(--text);padding:12px 13px;outline:none}input:focus,textarea:focus,select:focus{border-color:var(--a);box-shadow:0 0 0 3px #8b7cff20}textarea{resize:vertical;min-height:120px}select option{background:#10192c}.row{display:flex;gap:9px;align-items:center;flex-wrap:wrap}.row>*{flex:1}.btn{border:0;border-radius:13px;padding:11px 16px;background:linear-gradient(120deg,#8878ff,#5d63dc);color:white;font-weight:800}.btn.secondary{background:#1a2944;border:1px solid #304362;color:var(--text)}.btn.teal{background:linear-gradient(120deg,#1da99f,#31c9b0);color:#04191a}.btn.small{padding:7px 10px;font-size:13px}.btn:disabled{opacity:.55;cursor:wait}.output{white-space:pre-wrap;direction:auto;min-height:78px;border:1px solid var(--line);border-radius:14px;background:#080f20;padding:15px;margin-top:13px;overflow-wrap:anywhere}.output.empty{color:#7183a3}.output.ltr{direction:ltr;text-align:left}.note{font-size:12px;color:var(--muted);margin-top:10px}.cards{display:grid;grid-template-columns:repeat(3,1fr);gap:12px}.tile{padding:16px;transition:.2s}.tile:hover{transform:translateY(-2px);border-color:#7168cf}.tile .emoji{font-size:25px}.tile h4{margin:6px 0}.tile p{font-size:13px;color:var(--muted);margin:0 0 12px}.chat{display:flex;flex-direction:column;gap:10px;min-height:140px;max-height:450px;overflow:auto;padding:3px}.bubble{padding:12px 14px;border-radius:15px;max-width:90%;white-space:pre-wrap;overflow-wrap:anywhere}.bubble.user{align-self:flex-start;background:#4b4e9e}.bubble.ai{align-self:flex-end;background:#152e3b;border:1px solid #25545b}.empty-chat{color:var(--muted);text-align:center;padding:30px}.pill{display:inline-block;font-size:11px;color:var(--b);border:1px solid #2b716f;padding:2px 8px;border-radius:999px}.toast{position:fixed;bottom:18px;left:18px;right:18px;max-width:520px;margin:auto;background:#182744;border:1px solid #3c5076;border-radius:13px;padding:12px 16px;display:none;z-index:10}.toast.show{display:block}.footer{text-align:center;color:#7283a0;font-size:12px;padding:25px}.divider{height:1px;background:var(--line);margin:17px 0}.kbd{border:1px solid var(--line);border-radius:6px;padding:1px 5px;color:var(--muted);font-size:11px}
+@media(max-width:800px){.hero{grid-template-columns:1fr}.grid2{grid-template-columns:1fr}.cards{grid-template-columns:repeat(2,1fr)}.shell{padding:13px}.panel{padding:17px}.hero-main{padding:22px}}@media(max-width:560px){#view-about .panel>div{grid-template-columns:1fr!important}#view-about img{grid-row:1;max-width:210px!important}}@media(max-width:470px){.cards{grid-template-columns:1fr}.brand h1{font-size:19px}.hero h2{font-size:27px}.row.mobile-col{flex-direction:column;align-items:stretch}}
+</style>
+</head>
+<body>
+<div class="shell">
+<header class="top">
+ <div class="brand"><div class="logo">∞</div><div><h1>ENGLISH SHADOW</h1><p>زمانەکەت، دنیایەکی نوێ</p></div></div>
+ <div class="row" style="flex:0 1 auto;gap:8px"><button class="btn small" id="installAppBtn" style="display:none">⬇️ دامەزراندنی ئەپ</button><a class="btn small secondary" href="index.html" download="English-Shadow.html" style="text-decoration:none">⬇️ داگرتن</a><div class="status"><span class="dot" id="statusDot"></span><span id="statusText">مۆدی ئۆفلاین ئامادەیە</span></div></div>
+</header>
+<section class="hero">
+ <div class="hero-main"><div class="eyebrow">LEARN • SPEAK • GROW</div><h2>ئینگلیزی بە شێوەیەکی زیرەکانە فێربە</h2><p>وەرگێڕان، مامۆستای AI، گفتوگۆ، دەنگ و وانەکان لە یەک شوێندا. کاتێک ئینتەرنێت نییەش، بەشی ئۆفلاین بەردەستە.</p><div class="row mobile-col"><button class="btn" data-go="translator">دەستپێکردنی وەرگێڕان ←</button><button class="btn secondary" data-go="lessons">بینینی وانەکان</button></div></div>
+ <div class="hero-side"><div class="stat"><div><span>مۆدی فێربوون</span><br><strong>Offline + AI</strong></div><span class="pill">دوو مۆد</span></div><div class="stat"><div><span>ئامرازەکان</span><br><strong>٤ بەش</strong></div><span>✦</span></div><div class="stat"><div><span>گۆڕینی دەنگ</span><br><strong>Speech</strong></div><span>♫</span></div></div>
+</section>
+<nav class="nav" aria-label="بەشەکانی ئەپ">
+ <button class="active" data-view="translator">🌐 وەرگێڕان</button><button data-view="teacher">🤖 مامۆستای AI</button><button data-view="conversation">💬 گفتوگۆ</button><button data-view="lessons">📚 وانەکان</button><button data-view="dictionary">📖 فەرهەنگ</button><button data-view="about">👤 دەربارە</button><button data-view="settings">⚙️ ڕێکخستن</button>
+</nav>
+<main>
+<section class="view active" id="view-translator">
+ <div class="grid2">
+  <div class="panel"><h3>🌐 وەرگێڕانی زیرەک</h3><p class="sub">ڕستەکەت بنووسە یان بە دەنگ بیڵێ. AI بۆ وەرگێڕانی ڕستەی نوێ، پەیوەندی بە ئینتەرنێت دەکات.</p>
+   <div class="row"><div><label class="label">لە زمانی</label><select id="sourceLang"><option value="auto">خۆکارانە دیاری بکە</option><option value="ckb">کوردی سۆرانی</option><option value="en">English</option></select></div><div><label class="label">بۆ زمانی</label><select id="targetLang"><option value="en">English</option><option value="ckb">کوردی سۆرانی</option></select></div></div>
+   <label class="label" for="translateInput">دەق یان ڕستە</label><textarea id="translateInput" placeholder="بۆ نموونە: من دەمەوێت ئینگلیزی فێربم..."></textarea>
+   <div class="row mobile-col" style="margin-top:10px"><button class="btn" id="translateBtn">وەرگێڕان بە AI</button><button class="btn secondary" id="localTranslateBtn">گەڕان لە فەرهەنگی ئۆفلاین</button><button class="btn secondary" id="micTranslateBtn">🎙 قسەکردن</button></div>
+   <div class="output empty" id="translateOutput">وەرگێڕان لێرە دەردەکەوێت.</div><div class="row" style="margin-top:9px"><button class="btn small secondary" id="speakOutputBtn">🔊 خوێندنەوە</button><button class="btn small secondary" id="copyOutputBtn">کۆپی</button></div><p class="note">دەنگی کوردی بە توانای وێبگەڕ و سیستەمەکەتەوە بەستراوە. بۆ AI پێویستە API لە ڕێکخستنەکاندا ڕێکبخرێت.</p>
+  </div>
+  <div class="panel"><h3>✨ ڕۆژانە فێربە</h3><p class="sub">وشە و ڕستەیەکی ئامادە بۆ ڕاهێنان.</p><div id="dailyCard" class="output ltr">Good morning! How are you today?</div><div class="row" style="margin-top:10px"><button class="btn teal" id="nextDailyBtn">وشەی داهاتوو</button><button class="btn secondary" id="speakDailyBtn">🔊 گوێگرتن</button></div><div class="divider"></div><h3>چۆن کار دەکات؟</h3><p class="sub">ئۆفلاین: فەرهەنگ و وانەی ناوخۆیی. ئۆنلاین: AI وەڵامی ڕستەی نوێ دەداتەوە. بەشی ئۆفلاین وەڵامی تەواوی AI جێگرتەوە ناکات.</p></div>
+ </div>
+</section>
+<section class="view" id="view-teacher">
+ <div class="panel"><h3>🤖 مامۆستای تایبەتی AI</h3><p class="sub">پرسیار بکە بە سۆرانی یان ئینگلیزی؛ داوای ڕوونکردنەوە، نموونە، یان چاککردنەوەی ڕستە بکە.</p><label class="label" for="teacherInput">پرسیارەکەت</label><textarea id="teacherInput" placeholder="بۆ نموونە: جیاوازی do و does چییە؟"></textarea><div class="row mobile-col" style="margin-top:10px"><button class="btn" id="teacherBtn">پرسیار لە مامۆستا بکە</button><button class="btn secondary" id="teacherExample">نموونەی پرسیار</button></div><div class="output empty" id="teacherOutput">وەڵامی مامۆستا لێرە دەردەکەوێت.</div><button class="btn small secondary" id="speakTeacherBtn" style="margin-top:9px">🔊 خوێندنەوەی وەڵام</button></div>
+</section>
+<section class="view" id="view-conversation">
+ <div class="panel"><h3>💬 گفتوگۆی فێربوون</h3><p class="sub">بە ئینگلیزی وەڵام بدە. AI دەتوانێت هەڵەکانت چاک بکاتەوە و بە سۆرانی ڕوونی بکاتەوە.</p><div class="chat" id="chat"><div class="empty-chat">سڵاو! بنووسە: “Let's practice English.” بۆ دەستپێکردن.</div></div><label class="label" for="chatInput">وەڵامەکەت</label><textarea id="chatInput" style="min-height:80px" placeholder="Type your answer in English..."></textarea><div class="row mobile-col" style="margin-top:10px"><button class="btn" id="sendChatBtn">ناردن بۆ AI</button><button class="btn secondary" id="micChatBtn">🎙 دەنگ</button><button class="btn secondary" id="clearChatBtn">پاککردنەوە</button></div><p class="note">پەیامەکان تەنها لە مۆدێلی ناوخۆی ئەم پەڕەیەدا دەهێڵدرێن؛ بۆ ناردن بۆ AI پێویستی بە ئینتەرنێت هەیە.</p></div>
+</section>
+<section class="view" id="view-lessons">
+ <div class="panel"><h3>📚 وانەکانی سەرەتایی</h3><p class="sub">وانەکان بەبێ ئینتەرنێت دەکرێنەوە. کلیک لەسەر کارتێک بکە بۆ بینینی ڕستە و ڕاهێنان.</p><div class="cards" id="lessonCards"></div><div id="lessonDetail" class="output" style="display:none;margin-top:16px"></div><div class="row" style="margin-top:12px"><button class="btn secondary" id="speakLessonBtn">🔊 خوێندنەوەی وانە</button></div></div>
+</section>
+<section class="view" id="view-dictionary">
+ <div class="panel"><h3>📖 فەرهەنگی ئۆفلاین</h3><p class="sub">بە ئینگلیزی یان کوردی بگەڕێ. ئەم فەرهەنگە نموونەیەکی ناوخۆییە و هەموو وشەیەک لەخۆناگرێت.</p><input id="dictSearch" placeholder="وشە یان ڕستە بنووسە..."><div id="dictResults" style="margin-top:14px"></div></div>
+</section>
+
+<section class="view" id="view-about">
+ <div class="panel" style="padding:clamp(18px,4vw,38px)">
+  <h3 style="font-size:clamp(25px,4vw,34px);color:#91b8ff;margin-bottom:22px">دەربارە</h3>
+  <div style="display:grid;grid-template-columns:minmax(0,1fr) minmax(180px,290px);gap:clamp(18px,4vw,38px);align-items:center">
+   <div style="text-align:right;min-width:0">
+    <div class="pill" style="font-size:14px;padding:7px 14px;margin-bottom:8px">گەشەپێدەر • Developer</div>
+    <h2 style="font-size:clamp(26px,4vw,42px);line-height:1.2;margin:8px 0;color:#dce8ff;overflow-wrap:anywhere">Safen Sartip Ismail</h2>
+    <h3 style="font-size:clamp(21px,3vw,30px);color:#72a9ff;margin:12px 0 20px">Sung Jin Woo</h3>
+    <p style="font-size:clamp(15px,2vw,19px);color:var(--text)">ئەم ئەپە بۆ فێربوونی زمانی ئینگلیزی دروست کراوە. وانە، فەرهەنگ، گفتوگۆ، وەرگێڕان و ئامرازی دەنگی تێدایە بۆ ئەوەی فێربوون ئاسانتر و خۆشتر بێت.</p>
+    <a href="https://t.me/safenyorochi" target="_blank" rel="noopener noreferrer" style="display:inline-flex;align-items:center;gap:10px;margin-top:12px;padding:10px 18px;border-radius:999px;border:1px solid #2c7899;background:#10314a;color:#9ee0ff;text-decoration:none;font-weight:800;font-size:17px">@safenyorochi <span aria-hidden="true">➤</span></a>
+   </div>
+   <img src="sung-jin-woo.jpg" alt="Sung Jin Woo" style="display:block;width:100%;max-width:290px;aspect-ratio:1;object-fit:cover;border-radius:50%;border:7px solid white;box-shadow:0 15px 40px #0006;justify-self:center">
+  </div>
+ </div>
+</section>
+<section class="view" id="view-settings">
+ <div class="panel"><h3>⚙️ ڕێکخستنی AI</h3><p class="sub">URL ـی Cloudflare Worker ـەکەت لێرە دابنێ. API Key تەنها لە Cloudflare Worker دەمێنێتەوە، نەک لە ئەپەکە.</p><label class="label" for="workerUrl">Worker API URL</label><input id="workerUrl" placeholder="https://english-shadow-ai.yourname.workers.dev/api/ai" dir="ltr"><div class="row mobile-col" style="margin-top:10px"><button class="btn" id="saveSettingsBtn">پاشەکەوتکردنی ڕێکخستن</button><button class="btn secondary" id="testAiBtn">تاقیکردنەوەی پەیوەندی</button></div><div class="output empty" id="settingsOutput">پاشەکەوتکردن و تاقیکردنەوە لێرە دەردەکەوێت.</div><div class="divider"></div><h3>دەنگ و خوێندنەوە</h3><label class="label" for="voiceSelect">دەنگی خوێندنەوە</label><select id="voiceSelect"><option value="">دەنگی پێشوەختەی سیستەم</option></select><label class="label" for="voiceRate">خێرایی خوێندنەوە: <span id="rateLabel">0.9x</span></label><input id="voiceRate" type="range" min="0.6" max="1.3" step="0.1" value="0.9"><div class="divider"></div><h3>ئۆفلاین و پاراستن</h3><p class="sub">وانەکان و فەرهەنگی نموونە لە کۆدەکەدان. بۆ کارکردنی AI بە ئینتەرنێت، Worker ـێکی Cloudflare پێویستە. کلیلی API لە HTML یان GitHub مەخە.</p><button class="btn secondary" id="offlineTestBtn">تاقیکردنەوەی مۆدی ئۆفلاین</button></div>
+</section>
+</main>
+<footer class="footer">ENGLISH SHADOW · Made for Kurdish Sorani learners · Offline + Online AI</footer>
+</div>
+<div class="toast" id="toast" role="status"></div>
+<script>
+const $=id=>document.getElementById(id);
+const phrases=[
+ {ckb:"سڵاو، چۆنی؟",en:"Hello, how are you?"},
+ {ckb:"من باشم، سوپاس.",en:"I'm fine, thank you."},
+ {ckb:"ناوت چییە؟",en:"What is your name?"},
+ {ckb:"ناوم سافەنە.",en:"My name is Safen."},
+ {ckb:"من دەمەوێت ئینگلیزی فێربم.",en:"I want to learn English."},
+ {ckb:"تکایە بە هێواشی قسە بکە.",en:"Please speak slowly."},
+ {ckb:"ئەمە بە کوردی چی دەبێت؟",en:"What does this mean in Kurdish?"},
+ {ckb:"دەتوانیت یارمەتیم بدەیت؟",en:"Can you help me?"},
+ {ckb:"من تێناگەم.",en:"I don't understand."},
+ {ckb:"دووبارەی بکەرەوە، تکایە.",en:"Could you repeat that, please?"},
+ {ckb:"بەیانی باش.",en:"Good morning."},
+ {ckb:"شەو باش.",en:"Good night."},
+ {ckb:"زۆر سوپاس.",en:"Thank you very much."},
+ {ckb:"ببورە.",en:"I'm sorry."},
+ {ckb:"ئەمە چەندە؟",en:"How much is this?"},
+ {ckb:"شوێنی وێستگەکە لە کوێیە؟",en:"Where is the station?"},
+ {ckb:"من حەزم لە خوێندنەوەیە.",en:"I enjoy reading."},
+ {ckb:"من لە هەولێر دەژیم.",en:"I live in Erbil."},
+ {ckb:"ئەمڕۆ کەش چۆنە؟",en:"What's the weather like today?"},
+ {ckb:"سبەی دەتبینمەوە.",en:"See you tomorrow."},
+ {ckb:"من کەمێک ئینگلیزی دەزانم.",en:"I speak a little English."},
+ {ckb:"تکایە یارمەتیم بدە.",en:"Please help me."},
+ {ckb:"دەمەوێت قاوەیەک بخۆمەوە.",en:"I'd like a coffee."},
+ {ckb:"کاتژمێر چەندە؟",en:"What time is it?"}
+];
+const lessons=[
+ {title:"سڵاو و ناسین",level:"A1 · بنەڕەت",icon:"👋",lines:[["Hello!","سڵاو!"],["What's your name?","ناوت چییە؟"],["My name is Sara.","ناوم ساراە."],["Nice to meet you.","خۆشحاڵم بە ناسینت."]],tip:"لە گفتوگۆی یەکەمدا بە Hello و What's your name? دەست پێ بکە."},
+ {title:"خێزان",level:"A1 · وشە",icon:"👨‍👩‍👧",lines:[["family","خێزان"],["mother","دایک"],["father","باوک"],["brother / sister","برا / خوشک"]],tip:"نموونە: I have two brothers. — دوو برام هەیە."},
+ {title:"ڕۆژانە",level:"A1 · ڕستە",icon:"☀️",lines:[["I wake up at seven.","لە حەوتدا لە خەو هەڵدەستم."],["I eat breakfast.","نانی بەیانی دەخۆم."],["I go to work.","دەچم بۆ کار."],["I study English every day.","هەموو ڕۆژێک ئینگلیزی دەخوێنم."]],tip:"بۆ کارە ڕۆژانەکان Present Simple بەکاربهێنە."},
+ {title:"لە کافێ",level:"A1 · گفتوگۆ",icon:"☕",lines:[["Can I have a coffee, please?","تکایە قاوەیەکم دەوێت."],["Anything else?","شتێکی تر؟"],["That's all, thank you.","هەر ئەوەندە، سوپاس."]],tip:"please و thank you گفتوگۆکەت بەڕێزتر دەکەن."},
+ {title:"کات و ڕۆژ",level:"A1 · وشە",icon:"🕒",lines:[["Monday","دووشەممە"],["Tuesday","سێشەممە"],["What time is it?","کاتژمێر چەندە؟"],["It's half past three.","سێ و نیوە."]],tip:"half past three واتە سێ و نیوە."},
+ {title:"پرسیارکردن",level:"A2 · گرامەر",icon:"❓",lines:[["Where do you live?","لە کوێ دەژیت؟"],["What do you do?","کارت چییە؟"],["Why are you learning English?","بۆچی ئینگلیزی فێردەبیت؟"]],tip:"لە زۆر پرسیاری Present Simple دا do/does بەکاربهێنە."},
+ {title:"کاتی ڕابردوو",level:"A2 · گرامەر",icon:"⏳",lines:[["I visited my friend yesterday.","دوێنێ سەردانی هاوڕێکەمم کرد."],["She went to school.","ئەو چوو بۆ قوتابخانە."],["We watched a movie.","ئێمە فیلمێکمان بینی."]],tip:"yesterday زۆرجار نیشانەی کاتی ڕابردووە."},
+ {title:"کاری ڕۆژانە",level:"A2 · کار",icon:"💼",lines:[["I work as a teacher.","وەک مامۆستا کار دەکەم."],["I have a meeting at ten.","لە دەدا کۆبوونەوەم هەیە."],["Could you send me the file?","دەتوانیت فایلەکەم بۆ بنێریت؟"]],tip:"Could you…? داواکارییەکی ئەدەبانەیە."},
+ {title:"پلانی داهاتوو",level:"A2 · گرامەر",icon:"🚀",lines:[["I'm going to study tonight.","ئەمشەو دەخوێنم."],["We will meet tomorrow.","سبەی یەک دەبینینەوە."],["What are your plans?","پلانەکانت چین؟"]],tip:"be going to بۆ پلانی پێشوەختە زۆر بەکاردێت."},
+ {title:"هەست و ڕای خۆت",level:"B1 · گفتوگۆ",icon:"💡",lines:[["I think this is a good idea.","پێم وایە ئەمە بیرۆکەیەکی باشە."],["In my opinion, practice is important.","بە بۆچوونی من، ڕاهێنان گرنگە."],["I agree with you.","لەگەڵت هاوڕام."]],tip:"I think و In my opinion بۆ دەربڕینی بۆچوون بەکاربهێنە."},
+ {title:"گەشت و ڕێگا",level:"A2 · گەشت",icon:"🧭",lines:[["How can I get to the airport?","چۆن بگەمە فڕۆکەخانە؟"],["Turn left at the next street.","لە شەقامی داهاتوو بچۆ بۆ چەپ."],["Is it far from here?","لە ئێرەوە دوورە؟"]],tip:"Turn left/right بۆ ڕێنمایی ڕێگا بەکاردێت."},
+ {title:"چاککردنەوەی هەڵە",level:"B1 · نووسین",icon:"✍️",lines:[["Incorrect: She go to school.","هەڵە: She go to school."],["Correct: She goes to school.","ڕاست: She goes to school."],["Incorrect: I am agree.","هەڵە: I am agree."],["Correct: I agree.","ڕاست: I agree."]],tip:"لەگەڵ he/she/it لە Present Simple دا زۆرجار -s زیاد دەکرێت."}
+];
+let dailyIndex=Math.floor(Math.random()*phrases.length), chatHistory=[];
+const localAI=()=>!!($("workerUrl").value.trim());
+function toast(msg){$("toast").textContent=msg;$("toast").classList.add("show");setTimeout(()=>$("toast").classList.remove("show"),3500)}
+function showView(name){document.querySelectorAll(".view").forEach(x=>x.classList.toggle("active",x.id==="view-"+name));document.querySelectorAll("[data-view]").forEach(x=>x.classList.toggle("active",x.dataset.view===name));}
+document.querySelectorAll("[data-view]").forEach(b=>b.addEventListener("click",()=>showView(b.dataset.view)));
+document.querySelectorAll("[data-go]").forEach(b=>b.addEventListener("click",()=>showView(b.dataset.go)));
+function setOutput(el,text,dir){el.textContent=text;el.classList.remove("empty","ltr");if(dir==="ltr")el.classList.add("ltr")}
+function speak(text,lang){if(!("speechSynthesis"in window)){toast("وێبگەڕەکەت خوێندنەوەی دەنگ پشتگیری ناکات.");return}speechSynthesis.cancel();const u=new SpeechSynthesisUtterance(text);const v=$("voiceSelect").value;const voices=speechSynthesis.getVoices();if(v){const chosen=voices.find(x=>x.name===v);if(chosen)u.voice=chosen}u.lang=lang||"en-US";u.rate=Number($("voiceRate").value||.9);speechSynthesis.speak(u)}
+function loadVoices(){if(!("speechSynthesis"in window))return;const select=$("voiceSelect"),old=select.value;select.innerHTML='<option value="">دەنگی پێشوەختەی سیستەم</option>';speechSynthesis.getVoices().forEach(v=>{let o=document.createElement("option");o.value=v.name;o.textContent=v.name+" ("+v.lang+")";select.appendChild(o)});select.value=old}
+if("speechSynthesis"in window){loadVoices();speechSynthesis.onvoiceschanged=loadVoices}
+$("voiceRate").addEventListener("input",()=> $("rateLabel").textContent=$("voiceRate").value+"x");
+function localLookup(text){let q=text.trim().toLocaleLowerCase();return phrases.filter(p=>p.ckb.toLocaleLowerCase().includes(q)||p.en.toLocaleLowerCase().includes(q)||q.includes(p.ckb.toLocaleLowerCase())||q.includes(p.en.toLocaleLowerCase()))}
+function showLocalTranslation(){const text=$("translateInput").value.trim();if(!text){toast("تکایە دەقێک بنووسە.");return}const s=$("sourceLang").value,t=$("targetLang").value;const matches=localLookup(text);let found=matches.find(p=>s==="en"?p.en.toLowerCase()===text.toLowerCase():s==="ckb"?p.ckb===text: p.en.toLowerCase()===text.toLowerCase()||p.ckb===text);if(found){setOutput($("translateOutput"),t==="en"?found.en:found.ckb,t==="en"?"ltr":"rtl")}else if(matches.length){setOutput($("translateOutput"),matches.slice(0,5).map(p=>p.ckb+"  ⇄  "+p.en).join("\n"),"")}else setOutput($("translateOutput"),"لە فەرهەنگی ئۆفلاین ئەم ڕستەیە نەدۆزرایەوە. بۆ وەرگێڕانی ڕستەی نوێ، Worker ـی AI ڕێکبخە.","");}
+async function callAI(action,input,extra={}){const url=$("workerUrl").value.trim();if(!url)throw new Error("سەرەتا لە بەشی ڕێکخستن URL ـی Cloudflare Worker دابنێ.");const res=await fetch(url,{method:"POST",headers:{"Content-Type":"application/json"},body:JSON.stringify({action,input,source:extra.source||"auto",target:extra.target||"en",history:extra.history||[]})});let data;try{data=await res.json()}catch{throw new Error("وەڵامی Worker دروست نەبوو.")}if(!res.ok)throw new Error(data.error||"هەڵەیەک لە پەیوەندی AI ڕوویدا.");if(!data.text)throw new Error("AI وەڵامێکی بەتاڵی نارد.");return data.text}
+async function busy(btn,fn){const old=btn.textContent;btn.disabled=true;btn.textContent="تکایە چاوەڕێ بکە…";try{await fn()}catch(e){toast(e.message||"هەڵەیەک ڕوویدا.")}finally{btn.disabled=false;btn.textContent=old}}
+$("translateBtn").addEventListener("click",()=>busy($("translateBtn"),async()=>{let input=$("translateInput").value.trim();if(!input)throw Error("تکایە دەقێک بنووسە.");let text=await callAI("translate",input,{source:$("sourceLang").value,target:$("targetLang").value});setOutput($("translateOutput"),text,$("targetLang").value==="en"?"ltr":"")}));$("localTranslateBtn").addEventListener("click",showLocalTranslation);
+$("speakOutputBtn").onclick=()=>speak($("translateOutput").textContent,$("targetLang").value==="en"?"en-US":"ckb-IQ");
+$("copyOutputBtn").onclick=async()=>{try{await navigator.clipboard.writeText($("translateOutput").textContent);toast("کۆپی کرا.")}catch{toast("کۆپی لە وێبگەڕەکەت بەردەست نییە.")}};
+function speechTo(el,lang){const SR=window.SpeechRecognition||window.webkitSpeechRecognition;if(!SR){toast("ناسینەوەی دەنگ لەم وێبگەڕەدا بەردەست نییە. Chrome تاقی بکەرەوە.");return}const r=new SR();r.lang=lang;r.interimResults=false;r.maxAlternatives=1;r.onresult=e=>{el.value=e.results[0][0].transcript;toast("دەنگەکە نووسرا.")};r.onerror=()=>toast("دەنگ نەناسرا. مۆڵەتی مایکڕۆفۆن پشکنە.");r.start();toast("ئێستا قسە بکە…")}
+$("micTranslateBtn").onclick=()=>speechTo($("translateInput"),$("sourceLang").value==="en"?"en-US":"ar-IQ");
+$("dailyCard").textContent=phrases[dailyIndex].en+" — "+phrases[dailyIndex].ckb;
+$("nextDailyBtn").onclick=()=>{dailyIndex=(dailyIndex+1)%phrases.length;$("dailyCard").textContent=phrases[dailyIndex].en+" — "+phrases[dailyIndex].ckb};
+$("speakDailyBtn").onclick=()=>speak(phrases[dailyIndex].en,"en-US");
+$("teacherExample").onclick=()=>{$("teacherInput").value="جیاوازی do و does چییە؟ تکایە بە سۆرانی ڕوونی بکەرەوە و ٣ نموونە بدە."};
+$("teacherBtn").onclick=()=>busy($("teacherBtn"),async()=>{let q=$("teacherInput").value.trim();if(!q)throw Error("پرسیارێک بنووسە.");setOutput($("teacherOutput"),await callAI("teacher",q),"")});
+$("speakTeacherBtn").onclick=()=>speak($("teacherOutput").textContent,"en-US");
+function renderChat(){const c=$("chat");c.innerHTML="";if(!chatHistory.length){c.innerHTML='<div class="empty-chat">سڵاو! بنووسە: “Let’s practice English.” بۆ دەستپێکردن.</div>';return}chatHistory.forEach(m=>{let d=document.createElement("div");d.className="bubble "+(m.role==="user"?"user":"ai");d.textContent=m.text;c.appendChild(d)});c.scrollTop=c.scrollHeight}
+$("sendChatBtn").onclick=()=>busy($("sendChatBtn"),async()=>{let msg=$("chatInput").value.trim();if(!msg)throw Error("پەیامێک بنووسە.");chatHistory.push({role:"user",text:msg});renderChat();$("chatInput").value="";try{let reply=await callAI("conversation",msg,{history:chatHistory.slice(-10)});chatHistory.push({role:"assistant",text:reply});renderChat()}catch(e){chatHistory.pop();renderChat();throw e}});
+$("chatInput").addEventListener("keydown",e=>{if(e.key==="Enter"&&!e.shiftKey){e.preventDefault();$("sendChatBtn").click()}});
+$("micChatBtn").onclick=()=>speechTo($("chatInput"),"en-US");$("clearChatBtn").onclick=()=>{chatHistory=[];renderChat()};
+function renderLessons(){const c=$("lessonCards");lessons.forEach((l,i)=>{const d=document.createElement("div");d.className="tile";d.innerHTML=`<div class="emoji">${l.icon}</div><h4>${l.title}</h4><p>${l.level}</p><button class="btn small secondary">کردنەوەی وانە ←</button>`;d.querySelector("button").onclick=()=>{const detail=$("lessonDetail");detail.style.display="block";detail.textContent=l.title+" — "+l.level+"\n\n"+l.lines.map(x=>x[0]+" — "+x[1]).join("\n")+"\n\nتێبینی: "+l.tip;detail.dataset.lesson=i;detail.scrollIntoView({behavior:"smooth",block:"nearest"})};c.appendChild(d)})}
+renderLessons();$("speakLessonBtn").onclick=()=>{let i=Number($("lessonDetail").dataset.lesson||0);speak(lessons[i].lines.map(x=>x[0]).join(". "),"en-US")};
+function renderDict(){const q=$("dictSearch").value.trim().toLowerCase();const list=q?phrases.filter(p=>p.en.toLowerCase().includes(q)||p.ckb.toLowerCase().includes(q)):phrases.slice(0,10);const c=$("dictResults");c.innerHTML="";if(!list.length){c.textContent="هیچ ئەنجامێک نەدۆزرایەوە.";return}list.forEach(p=>{const d=document.createElement("div");d.className="stat";d.style.marginBottom="8px";const left=document.createElement("div");left.innerHTML="";const en=document.createElement("strong");en.textContent=p.en;en.style.direction="ltr";en.style.display="block";en.style.textAlign="left";const ck=document.createElement("span");ck.textContent=p.ckb;ck.style.color="var(--muted)";left.append(en,ck);const b=document.createElement("button");b.className="btn small secondary";b.textContent="🔊";b.onclick=()=>speak(p.en,"en-US");d.append(left,b);c.appendChild(d)})}
+$("dictSearch").addEventListener("input",renderDict);renderDict();
+$("saveSettingsBtn").onclick=()=>{const u=$("workerUrl").value.trim();if(u&&!/^https:\/\/.+/.test(u)){toast("URL دەبێت بە https:// دەست پێ بکات.");return}localStorage.setItem("es_worker_url",u);setOutput($("settingsOutput"),u?"URL پاشەکەوت کرا. ئێستا تاقی بکەرەوە.":"URL بەتاڵە؛ مۆدی ئۆفلاین هەر کار دەکات.","");toast("ڕێکخستن پاشەکەوت کرا.")};
+$("testAiBtn").onclick=()=>busy($("testAiBtn"),async()=>{setOutput($("settingsOutput"),await callAI("teacher","بە کوردی سۆرانی بڵێ: پەیوەندی AI سەرکەوتووە. بۆچی فێربوونی ئینگلیزی گرنگە؟"),"")});
+$("offlineTestBtn").onclick=()=>{const p=phrases[Math.floor(Math.random()*phrases.length)];setOutput($("settingsOutput"),"مۆدی ئۆفلاین کار دەکات.\n"+p.ckb+"\n"+p.en,"");};
+let installPrompt=null;const installButton=$("installAppBtn");window.addEventListener("beforeinstallprompt",e=>{e.preventDefault();installPrompt=e;installButton.style.display="inline-block"});installButton.addEventListener("click",async()=>{if(!installPrompt){toast("بۆ دامەزراندن، ئەپەکە لە HTTPS و وێبگەڕێکی نوێ بکەرەوە.");return}installPrompt.prompt();await installPrompt.userChoice;installPrompt=null;installButton.style.display="none"});if("serviceWorker" in navigator && location.protocol.startsWith("http")){window.addEventListener("load",()=>navigator.serviceWorker.register("./service-worker.js").catch(()=>{}))}
+const saved=localStorage.getItem("es_worker_url");if(saved)$("workerUrl").value=saved;
+if(navigator.onLine){$("statusDot").classList.add("online");$("statusText").textContent="ئینتەرنێت هەیە · AI پێویستی بە Worker هەیە"}window.addEventListener("online",()=>{$("statusDot").classList.add("online");$("statusText").textContent="ئینتەرنێت هەیە · AI پێویستی بە Worker هەیە"});window.addEventListener("offline",()=>{$("statusDot").classList.remove("online");$("statusText").textContent="مۆدی ئۆفلاین ئامادەیە"});
+</script>
+</body></html>

@@ -1,0 +1,20 @@
+{
+  "name": "English Shadow",
+  "short_name": "English Shadow",
+  "description": "فێربوونی زمانی ئینگلیزی بۆ کوردی سۆرانی",
+  "lang": "ckb",
+  "dir": "rtl",
+  "start_url": "./index.html",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#0a1020",
+  "theme_color": "#10162b",
+  "icons": [
+    {
+      "src": "sung-jin-woo.jpg",
+      "sizes": "640x640",
+      "type": "image/jpeg",
+      "purpose": "any maskable"
+    }
+  ]
+}
